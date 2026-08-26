@@ -1,0 +1,13 @@
+{
+  "lastChangelogVersion": "0.84.2",
+  "theme": "dark",
+  "defaultProvider": "attest-ai",
+  "defaultModel": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "packages": [
+    "npm:pi-web-access",
+    "npm:pi-mcp-adapter",
+    "npm:pi-subagents",
+    "npm:pi-background-tasks"
+  ],
+  "defaultThinkingLevel": "high"
+}

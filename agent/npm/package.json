@@ -1,0 +1,10 @@
+{
+  "name": "pi-extensions",
+  "private": true,
+  "dependencies": {
+    "pi-background-tasks": "^2.4.2",
+    "pi-mcp-adapter": "^2.27.0",
+    "pi-subagents": "^0.56.0",
+    "pi-web-access": "^0.24.2"
+  }
+}

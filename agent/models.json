@@ -1,0 +1,61 @@
+{
+  "providers": {
+    "attest-ai": {
+      "name": "attest-ai",
+      "baseUrl": "http://localhost:8080/v1",
+      "api": "openai-completions",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsFinishReason": false,
+        "supportsStore": false
+      },
+      "models": [
+        {
+          "id": "openrouter/anthropic/claude-sonnet-4-6",
+          "name": "Claude Sonnet 4.6 (attested)",
+          "reasoning": false,
+          "input": ["text", "image"],
+          "cost": { "input": 3, "output": 15, "cacheRead": 0.3, "cacheWrite": 3.75 },
+          "contextWindow": 200000,
+          "maxTokens": 64000
+        },
+        {
+          "id": "openrouter/anthropic/claude-opus-4-8",
+          "name": "Claude Opus 4.8 (attested)",
+          "reasoning": false,
+          "input": ["text", "image"],
+          "cost": { "input": 15, "output": 75, "cacheRead": 1.5, "cacheWrite": 18.75 },
+          "contextWindow": 200000,
+          "maxTokens": 32000
+        },
+        {
+          "id": "openrouter/google/gemini-2.5-pro",
+          "name": "Gemini 2.5 Pro (attested)",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "cost": { "input": 1.25, "output": 10, "cacheRead": 0.31, "cacheWrite": 0 },
+          "contextWindow": 1000000,
+          "maxTokens": 65536
+        },
+        {
+          "id": "openrouter/nvidia/nemotron-3.5-lightning:free",
+          "name": "Nemotron 3.5 Lightning free (attested)",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 131072,
+          "maxTokens": 32768
+        },
+        {
+          "id": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+          "name": "Nemotron 3 Ultra 550B free (attested)",
+          "reasoning": true,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 131072,
+          "maxTokens": 32768
+        }
+      ]
+    }
+  }
+}

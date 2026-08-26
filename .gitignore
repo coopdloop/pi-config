@@ -1,0 +1,12 @@
+# Secrets
+agent/auth.json
+
+# Runtime / ephemeral data
+agent/run-history.jsonl
+agent/models-store.json
+agent/sessions/
+agent/missions/
+agent/bin/
+
+# Dependencies
+agent/npm/node_modules/
