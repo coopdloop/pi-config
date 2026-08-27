@@ -11,48 +11,83 @@
       },
       "models": [
         {
-          "id": "openrouter/anthropic/claude-sonnet-4-6",
-          "name": "Claude Sonnet 4.6 (attested)",
+          "id": "openrouter/dots-studio/dots-3-note-preview:free",
+          "name": "Dots Studio: Dots3-Note Preview (free)",
           "reasoning": false,
-          "input": ["text", "image"],
-          "cost": { "input": 3, "output": 15, "cacheRead": 0.3, "cacheWrite": 3.75 },
-          "contextWindow": 200000,
-          "maxTokens": 64000
-        },
-        {
-          "id": "openrouter/anthropic/claude-opus-4-8",
-          "name": "Claude Opus 4.8 (attested)",
-          "reasoning": false,
-          "input": ["text", "image"],
-          "cost": { "input": 15, "output": 75, "cacheRead": 1.5, "cacheWrite": 18.75 },
-          "contextWindow": 200000,
-          "maxTokens": 32000
-        },
-        {
-          "id": "openrouter/google/gemini-2.5-pro",
-          "name": "Gemini 2.5 Pro (attested)",
-          "reasoning": true,
-          "input": ["text", "image"],
-          "cost": { "input": 1.25, "output": 10, "cacheRead": 0.31, "cacheWrite": 0 },
-          "contextWindow": 1000000,
-          "maxTokens": 65536
-        },
-        {
-          "id": "openrouter/nvidia/nemotron-3.5-lightning:free",
-          "name": "Nemotron 3.5 Lightning free (attested)",
-          "reasoning": false,
-          "input": ["text"],
-          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
-          "contextWindow": 131072,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.0,
+            "output": 0.0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 512000,
           "maxTokens": 32768
         },
         {
-          "id": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-          "name": "Nemotron 3 Ultra 550B free (attested)",
-          "reasoning": true,
-          "input": ["text"],
-          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
-          "contextWindow": 131072,
+          "id": "openrouter/liquid/lfm-2.5-2.6b:free",
+          "name": "LiquidAI: LFM2.5-2.6B (free)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.0,
+            "output": 0.0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 65536,
+          "maxTokens": 16384
+        },
+        {
+          "id": "openrouter/cohere/north-mini-code:free",
+          "name": "Cohere: North Mini Code (free)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.0,
+            "output": 0.0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 256000,
+          "maxTokens": 32768
+        },
+        {
+          "id": "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+          "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.0,
+            "output": 0.0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 256000,
+          "maxTokens": 32768
+        },
+        {
+          "id": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+          "name": "NVIDIA: Nemotron 3 Super (free)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0.0,
+            "output": 0.0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
           "maxTokens": 32768
         }
       ]
