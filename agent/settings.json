@@ -1,8 +1,8 @@
 {
-  "lastChangelogVersion": "0.84.2",
+  "lastChangelogVersion": "0.84.4",
   "theme": "dark",
-  "defaultProvider": "attest-ai",
-  "defaultModel": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "defaultProvider": "openrouter",
+  "defaultModel": "qwen/qwen3.8-flash",
   "packages": [
     "npm:pi-web-access",
     "npm:pi-mcp-adapter",
